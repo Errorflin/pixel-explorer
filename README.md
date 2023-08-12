@@ -1,2 +1,2 @@
-# pixel-explorer
+# Pixel Explorer
 Pixel Explorer Game
