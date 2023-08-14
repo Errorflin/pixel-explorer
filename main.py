@@ -1,8 +1,9 @@
 import pygame
 
-from utils.shared import *
-from utils.fonts import *
-import utils.menus as menus
+from utils.shared import *    # Shared variables
+from utils.fonts import *     # Fonts
+from utils.images import *    # Images
+import utils.menus as menus   # Menu rendering
 
 pygame.init()
 

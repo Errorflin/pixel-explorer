@@ -1,7 +1,8 @@
 import pygame
 
-from utils.shared import *
-from utils.fonts import *
+from utils.shared import *    # Shared variables
+from utils.fonts import *     # Fonts
+from utils.images import *    # Images
 
 pygame.init()
 
@@ -29,13 +30,13 @@ def main_menu():
         text_rect = text.get_rect(center=(screen_size[0] // 2, 420 + i * 105))
         screen.blit(text, text_rect)
     
+
+
     # Render version text
     version = EvilEmpire50.render(f"{game_verision}", True, version_color)
     version_rect = version.get_rect(center=(screen_size[0] // 2, screen_size[1] - 55))
     screen.blit(version, version_rect)
 
-    # Render title text
-    title = EvilEmpire180.render("Pixel Explorer", True, text_color)
-    title_rect = title.get_rect(center=(screen_size[0] // 2, 250))
-    screen.blit(title, title_rect)
+    # Render title image
+    screen.blit(title_img, (0, 0))
 

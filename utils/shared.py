@@ -13,7 +13,6 @@ fps_limit = 60
 
 # Themes
 theme_dark = True
-theme_light = False
 
 # Color settings
 if theme_dark:
@@ -22,7 +21,7 @@ if theme_dark:
     text_color = (255, 255, 255)
     select_color = (255, 170, 0)
     version_color = (40, 40, 40)
-elif theme_light:
+else:
     background_color = (255, 255, 255)
     foreground_color = (20, 20, 20)
     text_color = (20, 20, 20)
