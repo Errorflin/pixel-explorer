@@ -29,8 +29,6 @@ def main_menu():
         text = EvilEmpire140.render(item, True, color)
         text_rect = text.get_rect(center=(screen_size[0] // 2, 420 + i * 105))
         screen.blit(text, text_rect)
-    
-
 
     # Render version text
     version = EvilEmpire50.render(f"{game_verision}", True, version_color)

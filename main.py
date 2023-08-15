@@ -4,6 +4,7 @@ from utils.shared import *    # Shared variables
 from utils.fonts import *     # Fonts
 from utils.images import *    # Images
 import utils.menus as menus   # Menu rendering
+from utils.saveload import *  # Save & load data
 
 pygame.init()
 
@@ -28,7 +29,7 @@ def main():
                     elif menus.item_selected == 1 and main_menu:  # SETTINGS
                         print("SETTINGS")
                     elif menus.item_selected == 2 and main_menu:  # INFO
-                        print("PLAY")
+                        print("INFO")
                     elif menus.item_selected == 3 and main_menu:  # QUIT
                         exit()
 
@@ -39,4 +40,5 @@ def main():
         clock.tick(fps_limit)
 
 if __name__ == "__main__":
+    print(settings_data["keys"])
     main()

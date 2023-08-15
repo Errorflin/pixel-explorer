@@ -11,6 +11,12 @@ screen = pygame.display.set_mode(screen_size)
 pygame.display.set_caption("Pixel Explorer")
 fps_limit = 60
 
+# Encryption
+encryption_key = b'GfwU9T7o7hawGDWXHzZt9DDQ0eLR8gFpUYgEFkOaA9M='
+
+# Game data
+settings_data = None
+
 # Themes
 theme_dark = True
 

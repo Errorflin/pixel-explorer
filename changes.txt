@@ -5,3 +5,6 @@ dev. 0.1.1 ->
 dev. 0.1.3 ->
 - Added image loading
 - Added title image
+dev. 0.2.4 ->
+- Added encryption
+- Added save & load system
